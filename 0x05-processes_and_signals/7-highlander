@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 # Displays a phrase indefinitely and catches SIGTERM signals
+# Ensure there are no extra spaces or characters before the trap
+
 trap "echo 'I am invincible!!!'" SIGTERM
 
 while true
