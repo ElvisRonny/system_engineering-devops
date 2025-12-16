@@ -1,6 +1,5 @@
 #!/usr/bin/env bash
 # Displays a phrase indefinitely and catches SIGTERM signals
-
 trap "echo 'I am invincible!!!'" SIGTERM
 
 while true
