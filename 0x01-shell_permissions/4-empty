@@ -1,3 +1,2 @@
 #!/usr/bin/env bash
-# Creates an empty file named hello with a size of 0 bytes
-touch hello
+touch hello # Creates an empty file named hello
