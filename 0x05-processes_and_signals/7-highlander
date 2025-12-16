@@ -1,10 +1,9 @@
 #!/usr/bin/env bash
-# Displays a phrase indefinitely and catches SIGTERM signals
+# Display a phase indefinitely and catches SIGTERM signals
 trap "echo 'I am invincible!!!'" SIGTERM
 
-while true
+While true
 do
-    echo "To infinity and beyond"
+    echo"To infinity and beyond"
     sleep 2
 done
-
